@@ -33,6 +33,8 @@ const getHeader = document.querySelectorAll("header"),
    The tests will run every time you update your code.
    ===================
 */
+
+<!--
 document.getElementById('day mode').addEventListener('click', (event) => {
   let element_list = document.getElementById('list');
   element_list.style.backgroundColor = '#ffffcc';
@@ -45,7 +47,7 @@ document.getElementById('night mode').addEventListener('click', (event) => {
   element_list2.style.backgroundColor = '#003300';
   element_list2.style.color = '#ffffcc';
 
-});
+});-->
 test("There is at least one header element", () => {
   expect(getHeader.length).toBeGreaterThanOrEqual(1);
 });
